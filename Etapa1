@@ -1,0 +1,11 @@
+CREATE DATABASE LojaDB;
+USE LojaDB;
+
+CREATE TABLE Produtos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    categoria VARCHAR(50),
+    preco DECIMAL(10,2),
+    quantidade INT,
+    data_cadastro DATE
+);

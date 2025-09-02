@@ -1,0 +1,11 @@
+SELECT * FROM Produtos WHERE preco > 2000;
+
+SELECT * FROM Produtos WHERE categoria = 'Informática';
+
+SELECT * FROM Produtos WHERE data_cadastro > '2024-03-01';
+
+SELECT * FROM Produtos WHERE quantidade < 15;
+
+SELECT * FROM Produtos WHERE nome LIKE '%Samsung%';
+
+SELECT * FROM Produtos WHERE preco BETWEEN 100 AND 1000;
